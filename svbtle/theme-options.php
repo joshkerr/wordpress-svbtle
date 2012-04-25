@@ -68,6 +68,11 @@ $radio_options = array(
 		'value' => 'bullhorn',
 		'label' => __( 'Bullhorn', 'wordpress-svbtle' )
 	),
+	'business_man' => array(
+		'url' => get_template_directory_uri() . '/images/icons/business_man_large.png',
+		'value' => 'business_man',
+		'label' => __( 'Business Man', 'wordpress-svbtle' )
+	),
 	'cassette' => array(
 		'url' => get_template_directory_uri() . '/images/icons/cassette_large.png',
 		'value' => 'cassette',
@@ -133,6 +138,26 @@ $radio_options = array(
 		'value' => 'hat',
 		'label' => __( 'Hat', 'wordpress-svbtle' )
 	),
+	'heart' => array(
+		'url' => get_template_directory_uri() . '/images/icons/heart_large.png',
+		'value' => 'heart',
+		'label' => __( 'Heart', 'wordpress-svbtle' )
+	),
+	'infection' => array(
+		'url' => get_template_directory_uri() . '/images/icons/infection_large.png',
+		'value' => 'infection',
+		'label' => __( 'Infection', 'wordpress-svbtle' )
+	),
+	'iphone' => array(
+		'url' => get_template_directory_uri() . '/images/icons/iphone_large.png',
+		'value' => 'iphone',
+		'label' => __( 'iPhone', 'wordpress-svbtle' )
+	),
+	'like' => array(
+		'url' => get_template_directory_uri() . '/images/icons/like_large.png',
+		'value' => 'like',
+		'label' => __( 'Like', 'wordpress-svbtle' )
+	),
 	'man_stairs' => array(
 		'url' => get_template_directory_uri() . '/images/icons/man_stairs_large.png',
 		'value' => 'man_stairs',
@@ -148,6 +173,11 @@ $radio_options = array(
 		'value' => 'motorcycle',
 		'label' => __( 'Motorcycle', 'wordpress-svbtle' )
 	),
+	'no_smoking' => array(
+		'url' => get_template_directory_uri() . '/images/icons/no_smoking_large.png',
+		'value' => 'no_smoking',
+		'label' => __( 'No Smoking', 'wordpress-svbtle' )
+	),
 	'pan_ui' => array(
 		'url' => get_template_directory_uri() . '/images/icons/pan_ui_large.png',
 		'value' => 'pan_ui',
@@ -162,6 +192,16 @@ $radio_options = array(
 		'url' => get_template_directory_uri() . '/images/icons/robot_square_large.png',
 		'value' => 'robot_square',
 		'label' => __( 'Robot Square', 'wordpress-svbtle' )
+	),
+	'soccer_shoe' => array(
+		'url' => get_template_directory_uri() . '/images/icons/soccer_shoe_large.png',
+		'value' => 'soccer_shoe',
+		'label' => __( 'soccer_shoe', 'wordpress-svbtle' )
+	),
+	'stress' => array(
+		'url' => get_template_directory_uri() . '/images/icons/stress_large.png',
+		'value' => 'stress',
+		'label' => __( 'Stress', 'wordpress-svbtle' )
 	)
 );
 
