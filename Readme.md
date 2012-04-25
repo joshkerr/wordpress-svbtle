@@ -8,7 +8,7 @@ Built-in theme settings
 
 
 ## Quick Start
-Clone the repo, 'git clone git@github.com:scavone/wordpress-svbtle.git', or [download the latest release](https://github.com/scavone/wordpress-svbtle/zipball/master)
+Clone the repo, `git clone git@github.com:scavone/wordpress-svbtle.git`, or [download the latest release](https://github.com/scavone/wordpress-svbtle/zipball/master)
 
 1. Move the folder /svbtle into wp-content/themes/
 2. Enable the theme from the admin panel
