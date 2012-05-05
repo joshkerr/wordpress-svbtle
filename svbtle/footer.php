@@ -9,7 +9,7 @@ function buildUser(){
 	$.user.appdomain = "<?php echo substr_replace(home_url(), '', 0, 7); ?>";
 	$.user.cdomain = "<?php echo substr_replace(home_url(), '', 0, 7); ?>";
 	$.user.username = "<?php bloginfo( 'name' ); ?>";
-	$.user.icon = "<?php echo $options['icon']; ?>";
+	$.user.icon = "bolt";
 	$.user.ccolor = "<?php echo substr_replace($options['color'], '', 0, 1); ?>";
 }
 </script>

@@ -12,17 +12,17 @@
 	<?php $options = get_option ( 'svbtle_options' ); ?>
   <?php echo $options['google_analytics'];?>
 
-	<style type="text/css">
-		a:hover { color: <?php echo $options['color']; ?>;}
-		nav.pagination span.next a, footer#paginate a.back_to_blog { border-color: <?php echo $options['color']; ?>; color: <?php echo $options['color']; ?>;}
-		section#posts.preview header h2 {color: <?php echo $options['color']; ?>;}		
-		div.pullback a {color: <?php echo $options['color']; ?>; border-color: <?php echo $options['color']; ?>;}
-		article blockquote, figure#user_logo div.pulse { border-color: <?php echo $options['color']; ?>;}
-		figure#user_logo div.logo, article a.kudos.completed div.circle div.filled, figure#cover_logo{background-image: url(<?php echo get_template_directory_uri(); ?>/images/icons/<?php echo $options['icon']; ?>_large.png);}
-		nav.pagination span.next a:hover, nav.pagination span.prev a:hover, footer#paginate a.back_to_blog:hover,  div.pullback a:hover{border-color:<?php echo $options['color']; ?>;background-color: <?php echo $options['color']; ?>;}
-		section#cover, figure#user_logo div.logo{background-color: <?php echo $options['color']; ?>;}
-		::-moz-selection,::selection { background: <?php echo $options['color']; ?>; color: #fff; text-shadow: none; }
-	</style>
+<style type="text/css">
+	a:hover { color: <?php echo $options['color']; ?>;}
+	nav.pagination span.next a, footer#paginate a.back_to_blog { border-color: <?php echo $options['color']; ?>; color: <?php echo $options['color']; ?>;}
+	section#posts.preview header h2 {color: <?php echo $options['color']; ?>;}		
+	div.pullback a {color: <?php echo $options['color']; ?>; border-color: <?php echo $options['color']; ?>;}
+	article blockquote, figure#user_logo div.pulse { border-color: <?php echo $options['color']; ?>;}
+		
+	nav.pagination span.next a:hover, nav.pagination span.prev a:hover, footer#paginate a.back_to_blog:hover,  div.pullback a:hover{border-color:<?php echo $options['color']; ?>;background-color: <?php echo $options['color']; ?>;}
+	section#cover, figure#user_logo div.logo{background-color: <?php echo $options['color']; ?>;}
+	::-moz-selection,::selection { background: <?php echo $options['color']; ?>; color: #fff; text-shadow: none; }
+</style>
 </head>
 <body>
 
@@ -30,19 +30,19 @@
   <figure id="cover_logo">
     <div class="logo">&nbsp;</div>
   </figure>
-  <h1 id="cover_user"><a href="/"><?php bloginfo( 'name' ); ?></a></h1>
+  <h1 id="cover_user"><a href="<?php echo site_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 </section>
 
 <section id="sidebar" class="fixed">
   <figure id="user_logo">
-    <a href="/">
+    <a href="<?php echo site_url(); ?>">
       <div class="pulse animate">&nbsp;</div>
       <div class="logo">&nbsp;</div>
     </a>
   </figure>
 
   <div class="user_meta">
-    <h1 id="user"><a href="/" class=""><?php bloginfo( 'name' ); ?></a></h1>
+    <h1 id="user"><a href="<?php echo site_url(); ?>" class=""><?php bloginfo( 'name' ); ?></a></h1>
     <h2><?php bloginfo( 'description' ); ?></h2>
     <ul id="linkbar" class="clearfix">
 			<?php wp_nav_menu(array('menu' => 'custom_menu')); ?>
