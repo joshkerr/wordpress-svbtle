@@ -23,9 +23,11 @@ Clone the repo, `git clone git@github.com:scavone/wordpress-svbtle.git`, or [dow
 
 ![options][2]
 
+![header][3]
+
  [1]: https://github.com/scavone/wordpress-svbtle/raw/master/screenshot_main.png
  [2]: https://github.com/scavone/wordpress-svbtle/raw/master/screenshot_options.png 
-
+ [3]: https://github.com/scavone/wordpress-svbtle/raw/master/screenshot_header.png 
 
 
 ## Bug tracker
