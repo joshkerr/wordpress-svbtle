@@ -9,11 +9,8 @@ function main_css()
 
 add_action( 'after_setup_theme', 'theme_setup' );
 
-
-
 function theme_setup() {
 	global $wp_version;
-	//Compare wp_version to know which way to add custom header support
 	if (version_compare($wp_version, '3.4' , '>=')){ 
 		add_theme_support( 'custom-header', array(
 			// Header image default
@@ -267,4 +264,5 @@ function load_theme_scripts() {
     wp_enqueue_script( 'farbtastic' );
 }
 
+add_theme_support( 'post-thumbnails', array( 'post' ) ); 
 ?>

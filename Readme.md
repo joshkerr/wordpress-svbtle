@@ -2,20 +2,20 @@
 #### Svbtle.com inspired Wordpress theme
 
 All animations and "kudos" work!  
-Menu is customizable using built-in WP menus  
-Built-in theme settings
-
-
 
 ## Quick Start
 Clone the repo, `git clone git@github.com:scavone/wordpress-svbtle.git`, or [download the latest release](https://github.com/scavone/wordpress-svbtle/zipball/master)
 
 1. Move the folder /svbtle into wp-content/themes/
 2. Enable the theme from the admin panel
-3. Move kudos.php to the root of your wordpress installation.
+3. Move kudos.php to the root of your Wordpress installation.
 4. Your site is ready to go!
 
-
+## Wordpress Features
+* Uses WP customizable menus
+* Theme settings
+* Choose your own logo or pick one that is provided
+* Featured post images displayed on the index page
 
 ## Screenshots 
 
