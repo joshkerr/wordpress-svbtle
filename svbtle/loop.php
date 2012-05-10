@@ -7,11 +7,14 @@
 				<a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a>
 				<?php if ( $options['anchor'] ) { ?><span class="anchor"><a href="<?php echo home_url('/'); ?>?p=<?php the_ID(); ?>">&#9875;</a></span><?php } ?>
 			</h2>
-			<?php if ( has_post_thumbnail()) {
+			<?php 
+			if ( has_post_thumbnail()) {
 				echo '<a href="' . get_permalink($post->ID) . '" >';
 				the_post_thumbnail('thumbnail');
-			  echo '</a>'; } ?>
-			<?php the_content( __( 'Continue reading <span class="meta-nav">&raquo;</span>', 'hbd-theme' )  ); ?>
+			  echo '</a>'; 
+			}  else {
+				the_content( __( 'Continue reading <span class="meta-nav">&raquo;</span>', 'hbd-theme' )  ); 
+			} ?>
 			<?php $kudos = get_post_meta($post->ID, '_wp-svbtle-kudos', true); 
 						if ($kudos > "") { $kudos = $kudos; } else { $kudos = "0"; } ?>
 			<figure class="kudo">	
