@@ -36,7 +36,7 @@
 <section id="sidebar" class="fixed">
   <figure id="user_logo">
     <a href="<?php echo site_url(); ?>">
-      <div class="pulse animate">&nbsp;</div>
+			<?php if ( $options['pulse'] ) { ?><div class="pulse animate">&nbsp;</div><?php } ?>
       <div class="logo">&nbsp;</div>
     </a>
   </figure>

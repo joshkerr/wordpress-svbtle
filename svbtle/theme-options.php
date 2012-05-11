@@ -37,6 +37,12 @@ function theme_options_do_page() {
 
 			<table class="form-table">
 
+				<tr valign="top"><th scope="row"><?php _e( 'Display logo pulse animation?', 'wordpress-svbtle' ); ?></th>
+					<td>
+						<input id="svbtle_options[pulse]" name="svbtle_options[pulse]" type="checkbox" value="1" <?php checked( '1', $options['pulse'] ); ?> />
+					</td>
+				</tr>
+				
 				<tr valign="top"><th scope="row"><?php _e( 'Display anchors?', 'wordpress-svbtle' ); ?></th>
 					<td>
 						<input id="svbtle_options[anchor]" name="svbtle_options[anchor]" type="checkbox" value="1" <?php checked( '1', $options['anchor'] ); ?> />
@@ -70,6 +76,10 @@ function theme_options_validate( $input ) {
 	if ( ! isset( $input['anchor'] ) )
 		$input['anchor'] = null;
 	$input['anchor'] = ( $input['anchor'] == 1 ? 1 : 0 );
+	
+	if ( ! isset( $input['pulse'] ) )
+		$input['pulse'] = null;
+	$input['pulse'] = ( $input['pulse'] == 1 ? 1 : 0 );
 
 	$input['color'] = wp_filter_nohtml_kses( $input['color'] );
 
