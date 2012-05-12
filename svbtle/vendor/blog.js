@@ -149,7 +149,7 @@
             a("#cover").remove()
     }
     function f() {
-        a("code").length != 0 && (a("code").addClass("prettyprint"), a.getScript("/wp-content/themes/svbtle/js/prettify.js").done(function(b, c) {
+        a("code").length != 0 && (a("code").addClass("prettyprint"), a.getScript("/wp-content/themes/svbtle/vendor/prettify.js").done(function(b, c) {
             var d = "/wp-content/themes/svbtle/css/prettify.css";
             a.get(d, function(b) {
                 a('<style type="text/css"></style>').html(b).appendTo("head")
