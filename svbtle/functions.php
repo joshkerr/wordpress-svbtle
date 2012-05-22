@@ -47,6 +47,11 @@ function theme_setup() {
 			'thumbnail_url' => '%s/images/icons/thumbs/bear.png',
 			'description' => 'bear'
 		),
+		'beer' => array(
+			'url' => '%s/images/icons/beer_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/beer.png',
+			'description' => 'beer'
+		),
 		'bolt' => array(
 			'url' => '%s/images/icons/bolt_large.png',
 			'thumbnail_url' => '%s/images/icons/thumbs/bolt.png',
@@ -86,6 +91,11 @@ function theme_setup() {
 			'url' => '%s/images/icons/cog_head_large.png',
 			'thumbnail_url' => '%s/images/icons/thumbs/cog_head.png',
 			'description' => 'cog_head'
+		),
+		'crab' => array(
+			'url' => '%s/images/icons/crab_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/crab.png',
+			'description' => 'crab'
 		),
 		'day_night' => array(
 			'url' => '%s/images/icons/day_night_large.png',
@@ -127,6 +137,16 @@ function theme_setup() {
 			'thumbnail_url' => '%s/images/icons/thumbs/glasses.png',
 			'description' => 'glasses'
 		),
+		'glider' => array(
+			'url' => '%s/images/icons/glider_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/glider.png',
+			'description' => 'glider'
+		),
+		'hand' => array(
+			'url' => '%s/images/icons/hand_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/hand.png',
+			'description' => 'hand'
+		),
 		'hat' => array(
 			'url' => '%s/images/icons/hat_large.png',
 			'thumbnail_url' => '%s/images/icons/thumbs/hat.png',
@@ -152,10 +172,20 @@ function theme_setup() {
 			'thumbnail_url' => '%s/images/icons/thumbs/iphone.png',
 			'description' => 'iphone'
 		),
+		'lemon' => array(
+			'url' => '%s/images/icons/lemon_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/lemon.png',
+			'description' => 'lemon'
+		),
 		'like' => array(
 			'url' => '%s/images/icons/like_large.png',
 			'thumbnail_url' => '%s/images/icons/thumbs/like.png',
 			'description' => 'like'
+		),
+		'lotus' => array(
+			'url' => '%s/images/icons/lotus_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/lotus.png',
+			'description' => 'lotus'
 		),
 		'man_stairs' => array(
 			'url' => '%s/images/icons/man_stairs_large.png',
@@ -172,6 +202,11 @@ function theme_setup() {
 			'thumbnail_url' => '%s/images/icons/thumbs/motorcycle.png',
 			'description' => 'motorcycle'
 		),
+		'mustache' => array(
+			'url' => '%s/images/icons/mustache_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/mustache.png',
+			'description' => 'mustache'
+		),
 		'no_smoking' => array(
 			'url' => '%s/images/icons/no_smoking_large.png',
 			'thumbnail_url' => '%s/images/icons/thumbs/no_smoking.png',
@@ -182,25 +217,55 @@ function theme_setup() {
 			'thumbnail_url' => '%s/images/icons/thumbs/pan_ui.png',
 			'description' => 'pan_ui'
 		),
+		'quotes' => array(
+			'url' => '%s/images/icons/quotes_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/quotes.png',
+			'description' => 'quotes'
+		),
 		'radio' => array(
 			'url' => '%s/images/icons/radio_large.png',
 			'thumbnail_url' => '%s/images/icons/thumbs/radio.png',
 			'description' => 'radio'
+		),
+		'rain' => array(
+			'url' => '%s/images/icons/rain_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/rain.png',
+			'description' => 'rain'
 		),
 		'robot_square' => array(
 			'url' => '%s/images/icons/robot_square_large.png',
 			'thumbnail_url' => '%s/images/icons/thumbs/robot_square.png',
 			'description' => 'robot_square'
 		),
+		'scenic_viewpoint' => array(
+			'url' => '%s/images/icons/scenic_viewpoint_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/scenic_viewpoint.png',
+			'description' => 'scenic_viewpoint'
+		),
 		'soccer_shoe' => array(
 			'url' => '%s/images/icons/soccer_shoe_large.png',
 			'thumbnail_url' => '%s/images/icons/thumbs/soccer_shoe.png',
 			'description' => 'soccer_shoe'
 		),
+		'star' => array(
+			'url' => '%s/images/icons/star_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/star.png',
+			'description' => 'star'
+		),
+		'stress' => array(
+			'url' => '%s/images/icons/stress_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/stress.png',
+			'description' => 'stress'
+		),
 		'sunrise' => array(
 			'url' => '%s/images/icons/sunrise_large.png',
 			'thumbnail_url' => '%s/images/icons/thumbs/sunrise.png',
 			'description' => 'sunrise'
+		),
+		'wrench' => array(
+			'url' => '%s/images/icons/wrench_large.png',
+			'thumbnail_url' => '%s/images/icons/thumbs/wrench.png',
+			'description' => 'wrench'
 		)
 	) );
 }
