@@ -4,7 +4,8 @@ require('./wp-blog-header.php');
 $post_id = $_POST['article'];
 $cooking = $_POST['cooking'];
 
-$sql = "SELECT meta_value FROM wp_postmeta WHERE post_id = $post_id AND meta_key = '_wp-svbtle-kudos'";
+$table = $wpdb->prefix . 'post_meta';
+$sql = "SELECT meta_value FROM $table WHERE post_id = $post_id AND meta_key = '_wp-svbtle-kudos'";
 
 $kudos = $wpdb->get_var( $wpdb->prepare( $sql ) );
 
