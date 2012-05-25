@@ -83,9 +83,6 @@ function theme_options_validate( $input ) {
 
 	$input['color'] = wp_filter_nohtml_kses( $input['color'] );
 
-	if ( ! array_key_exists( $input['selectinput'], $select_options ) )
-		$input['selectinput'] = null;
-
 	$input['google_analytics'] = $input['google_analytics'] ;
 
 	return $input;
